@@ -1,17 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T21:26:33.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="92EMZxr25OkqENM3GDZP" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T21:35:34.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="k0EsVgZ1hHeOmyQ7qBHJ" version="21.5.0" type="github">
   <diagram name="Page-1" id="dOoj9Popo6ttxU3HT5iS">
     <mxGraphModel dx="2954" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KXsS-Q8MMyg4FuGP5UlM-1" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.dell_poweredge_2u;" vertex="1" parent="1">
-          <mxGeometry x="40" y="370" width="162" height="30" as="geometry" />
+          <mxGeometry x="30" y="490" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KXsS-Q8MMyg4FuGP5UlM-2" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.dell_poweredge_2u;" vertex="1" parent="1">
-          <mxGeometry x="40" y="430" width="162" height="30" as="geometry" />
+          <mxGeometry x="300" y="490" width="162" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KXsS-Q8MMyg4FuGP5UlM-4" value="" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.poweredge_m420;" vertex="1" parent="1">
-          <mxGeometry x="390" y="40" width="20" height="37" as="geometry" />
+          <mxGeometry x="375" y="280" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-6" value="&lt;b&gt;Impulse102 - Homelab network map&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-7" value="&lt;div&gt;PFSense - Dell 3420 (bare metal install 4 x 1Gbe NIC)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-8" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.modem;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-9" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="180" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-11" value="&lt;div&gt;OpenReach Modem&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="sourcePoint" />
+            <mxPoint x="380.5" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380.5" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-17" value="&lt;div&gt;BT G.Fast WAN&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-19" value="&lt;div&gt;Dell R720 - Host&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="56" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="428" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KXsS-Q8MMyg4FuGP5UlM-21" value="&lt;div&gt;Dell R720XD - Storage Host&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="291" y="450" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
